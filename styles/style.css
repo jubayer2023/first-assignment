@@ -84,8 +84,7 @@ body {
 
 .our-feature {
     width: 80%;
-    margin: auto;
-    height: 100vh;
+    margin: 90px auto;
 }
 
 .feature-container {
@@ -94,39 +93,109 @@ body {
     justify-content: center;
     /* justify-content: space-around; */
     width: 80%;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0 auto;
 }
 
 .feature-img-box {
     text-align: center;
-    /* width: 300px;
-    height: 350px; */
 }
 
 .feature-top {
-    width: 310px;
-    height: 360px;
-    background: rgba(227, 77, 102, 0.145);
+    width: 300px;
+    height: 350px;
     text-align: center;
     /* height: 400px; */
-    padding: 50px 40px 30px 40px;
+    padding: 50px 35px 30px 35px;
     border-radius: 50% 50% 0px 0px;
     margin: 30px 0px;
 }
 
 /* .feature-img-one {} */
-.feature-img {
+/* .feature-img {
     width: 240px;
     height: 270px;
-    /* margin-bottom: -30px; */
+    margin-bottom: -30px;
+} */
 
+.middle-img {
+    margin-top: 30px;
+    width: 200px;
+    height: 250px;
 }
-.middle-img{
-    margin-top: 10px;
-}
-
 
 .feature-common-img {
-    margin-top: 39px;
+    margin-top: 20px;
+    width: 210px;
+    height: 280px;
+}
+
+.feature-p {
+    width: 120px;
+    border-bottom: 2px solid black;
+    margin: auto;
+}
+
+.feature-img-one {
+    background: rgba(227, 77, 102, 0.145);
+
+}
+
+.feature-img-two {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.feature-img-three {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+/* hot deal part starts */
+
+.hot-deal {
+    background: rgba(227, 77, 102, 0.145);
+    padding: 60px 0px;
+}
+
+.hot-deal-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.hot-deal-context {
+    text-align: center;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.hot-deal-context p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 480px;
+    margin: 20px auto;
+}
+
+.hot-deal-img {
+    width: 250px;
+}
+
+
+
+
+
+
+
+.text-color {
+    color: #E55473;
 }
