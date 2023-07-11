@@ -191,11 +191,23 @@ body {
 }
 
 
-
-
-
-
-
 .text-color {
     color: #E55473;
+}
+
+/* instagram part starts */
+
+.instagram{
+    width: 80%;
+    margin: 60px auto;
+}
+
+.instagram-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.instagram-img{
+    display: block;
+    width: 225px;
 }
